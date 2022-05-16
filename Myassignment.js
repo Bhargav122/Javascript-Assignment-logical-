@@ -1,23 +1,23 @@
 // currency coversion
-function ToInr() {
+function Inr() {
   var dollars = document.getElementById("amount").value;
   var inr = dollars * 70;
   document.write(dollars + " dollars = " + inr + " INR");
 }
 
-function ToYen() {
+function Yen() {
   var dollars = document.getElementById("amount").value;
   var yen = dollars * 128;
   document.write(dollars + " dollars = " + yen + " Yen");
 }
 
-function ToEuro() {
+function Euro() {
   var dollars = document.getElementById("amount").value;
   var euro = dollars * 20;
   document.write(dollars + " dollars = " + euro + " Euros");
 }
 
-function ToPound() {
+function Pound() {
   var dollars = document.getElementById("amount").value;
   var pound = dollars * 0.82;
   document.write(dollars + " dollars = " + pound + " Pounds");
@@ -94,7 +94,7 @@ function ReverseArray() {
   }
 }
 
-function usingWhile() {
+function While() {
   var arr = [12, 22, 1, 6, 18, 9];
   const len = arr.length;
   var i = 0;
@@ -106,7 +106,7 @@ function usingWhile() {
   document.write("The sum of array using While is :" + sum);
 }
 
-function usingDoWhile() {
+function DoWhile() {
   var arr = [12, 22, 1, 6, 18, 9];
   const len = arr.length;
   var i = 0;
@@ -118,7 +118,7 @@ function usingDoWhile() {
   document.write("The sum of array using do While is :" + sum);
 }
 
-function usingFor() {
+function For() {
   var arr = [12, 22, 1, 6, 18, 9];
   const len = arr.length;
   var i = 0;
